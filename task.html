@@ -1,0 +1,43 @@
+<script src="main.js"></script>
+<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<head>
+    <title>
+        Docker app
+    </title>
+</head>
+<body>
+<pre>
+<div id="d1"> 
+    Output will be seen here..
+</div>
+</pre>
+<div id="d2">
+<label>Enter docker commands</label>
+<input id="ip" />
+<br/>
+<button id="b1" onclick='myfunc();' ">submit</button>
+</div>
+<ul>
+    <li><button id="b2" onclick='myfunc1()'>running containers</button></li>
+    <br/>
+    <li><button id="b3" onclick='myfunc2()'>available images</button></li>
+    <br
+    <li>
+        <div class="w3-dropdown-click">
+            <button onclick="myFunction()" id="b4" style="background-color: #89ABE3FF;border: 2px #89ABE3FF; width: 105px;
+            height: 55px;
+            margin: 5%;
+            border-radius: 7px;
+            padding: auto;color:white" >launch container</button>
+            <div id="Demo" class="w3-dropdown-content w3-bar-block w3-card-4 w3-animate-zoom">
+              <a href="#"  id="l1" onclick='myfunc3()' class="w3-bar-item w3-button">Centos</a>
+              <a href="#" id="l2" onclick='myfunc4()' class="w3-bar-item w3-button">Ubuntu</a>
+              <a href="#" id="l3" onclick='myfunc5()' class="w3-bar-item w3-button">debian</a>
+            </div>
+          </div>
+    </li>    
+  </ul>
+
+</body>
+
